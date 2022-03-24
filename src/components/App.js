@@ -11,9 +11,9 @@ const App = () => {
   const [currentLocale, setCurrentLocale] = useState(getInitialLocal());
 
   const handleChange = (e) => {
-    setCurrentLocale(e.target.value);
+    setCurrentLocale(e.value);
     // storing locale in the localstorage
-    localStorage.setItem("locale", e.target.value);
+    localStorage.setItem("locale", e.value);
   };
 
   //localstorage
