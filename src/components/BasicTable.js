@@ -20,6 +20,19 @@ const rows = [
 ];
 
 export default function BasicTable() {
+   //   api
+  //     .get(`/equipment?pageNumber=${page}&pageSize=${this.state.rowsPerpage}`)
+  //     .then((res) => {
+  //       this.setState({
+  //         data: res.data.data,
+  //         isLoading: false,
+  //       });
+  //       console.log("data: " + res.data.data);
+  //     })
+  //     .catch((error) => {
+  //       alert(error);
+  //     });
+  // };
   return (
     <TableContainer component={Paper}>
       <Table aria-label="simple table">
